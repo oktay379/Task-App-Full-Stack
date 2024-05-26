@@ -5,6 +5,13 @@ Ayrıca, kullanıcılar görevler arasında filtreleme yapabilir, örneğin sade
 Uygulama, kullanıcıların verimliliğini artırmak ve işlerini daha iyi organize etmelerine yardımcı olmak için tasarlanmıştır.
 
 
+### Gereksinimler
+- Node.js
+- MongoDB
+- React.js
+- Express.js
+
+
 ## Veritabanı ve Ortam Kurulumu:
 - MongoDB veritabanını resmi web sitesini aratın (https://www.mongodb.com/). 
 - Yeni veritabanı ve koleksiyonları oluşturun.
@@ -18,3 +25,25 @@ cd Playable-Factory-TodoApp
 cd frontend npm run dev
 ek terminal açiniz
 cd backend npm start
+
+
+## Kullanıcıları Oluşturm
+1. Tarayıcınızda uygulamayı açın.
+2. Ana sayfada, Navbar "Register" tıklayarak kayıt formunu açın.
+3. Formda gerekli bilgileri doldurun (kullanıcı adı, e-posta adresi, şifre, gender).
+4. "Submit" tıklayarak kaydı tamamlayın.
+5. Kayıt işlemi başarılı olduysa, giriş yapabilirsiniz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
