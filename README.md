@@ -20,11 +20,11 @@ Uygulama, kullanıcıların verimliliğini artırmak ve işlerini daha iyi organ
 
 
 ## Uygulama Kurulum:
-git clone https://github.com/oktay379/Playable-Factory-TodoApp
-cd Playable-Factory-TodoApp
-cd frontend npm run dev
-ek terminal açiniz
-cd backend npm start
+- git clone https://github.com/oktay379/Playable-Factory-TodoApp
+- cd Playable-Factory-TodoApp
+- cd frontend npm run dev
+- ek terminal açiniz
+- cd backend npm start
 
 
 ## Kullanıcıları Oluşturm
@@ -35,9 +35,13 @@ cd backend npm start
 5. Kayıt işlemi başarılı olduysa, giriş yapabilirsiniz.
 
 
+## Kullanılan Teknolojiler:
+Jwt and cookies kullanıcı kimlik doğrulaması ve kullanıcı bilgilerini depolamak için kullanıldı.
+State management, Context api kullanıldı.
+Tailwind ile dizayn yapıldı.
 
 
-
+## Resimler
 
 
 
