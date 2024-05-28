@@ -1,11 +1,15 @@
-### Playable-Factory-TodoApp
+## Playable-Factory-TodoApp
 Bu uygulama, kullanıcıların yapılacaklar listesi oluşturmasını ve yönetmesini sağlayan bir web uygulamasıdır. Kullanıcılar, 
 uygulama üzerinden yeni görevler ekleyebilir, var olan görevleri düzenleyebilir veya silebilir, ve tamamlanan görevleri işaretleyebilir. 
 Ayrıca, kullanıcılar görevler arasında filtreleme yapabilir, örneğin sadece belirli bir etikete sahip görevleri görüntüleyebilirler. 
 Uygulama, kullanıcıların verimliliğini artırmak ve işlerini daha iyi organize etmelerine yardımcı olmak için tasarlanmıştır.
 
 
-### Gereksinimler
+## Youtube Link:
+https://www.youtube.com/watch?v=XAtVgjyt4Yc
+
+
+## Gereksinimler
 - Node.js
 - MongoDB
 - React.js
