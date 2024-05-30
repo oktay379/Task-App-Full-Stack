@@ -1,51 +1,41 @@
 ## Task-App
-Bu uygulama, kullanıcıların yapılacaklar listesi oluşturmasını ve yönetmesini sağlayan bir web uygulamasıdır. Kullanıcılar, 
-uygulama üzerinden yeni görevler ekleyebilir, var olan görevleri düzenleyebilir veya silebilir, ve tamamlanan görevleri işaretleyebilir. 
-Ayrıca, kullanıcılar görevler arasında filtreleme yapabilir, örneğin sadece belirli bir etikete sahip görevleri görüntüleyebilirler. 
-Uygulama, kullanıcıların verimliliğini artırmak ve işlerini daha iyi organize etmelerine yardımcı olmak için tasarlanmıştır.
+This application is a web application that allows users to create and manage to-do lists. Users can add new tasks, edit or delete existing tasks, and mark completed tasks through the application. Additionally, users can filter tasks, for example, by displaying only tasks with a specific tag. The application is designed to increase users' productivity and help them organize their work better.
 
-
-## Youtube Link:
+## YouTube Link:
 https://www.youtube.com/watch?v=XAtVgjyt4Yc
 
-
-## Gereksinimler
+## Requirements
 - Node.js
 - MongoDB
 - React.js
 - Express.js
 
+## Database and Environment Setup:
+- Search for the MongoDB database on the official website (https://www.mongodb.com/).
+- Create new databases and collections.
+- Configure the necessary settings to connect the project to the MongoDB database.
+- The path value will be transferred to the .env file afterward.
 
-## Veritabanı ve Ortam Kurulumu:
-- MongoDB veritabanını resmi web sitesini aratın (https://www.mongodb.com/). 
-- Yeni veritabanı ve koleksiyonları oluşturun.
-- Projeyi MongoDB veritabanıyla bağlamak için gerekli ayarları yapılandırın.
-- Path değeri sonrasında .env dosyasına aktarılacaktır.
-
-
-## Uygulama Kurulum:
+## Application Setup:
 - git clone https://github.com/oktay379/Playable-Factory-TodoApp
 - cd Playable-Factory-TodoApp
 - cd frontend npm run dev
-- ek terminal açiniz
+- open a new terminal
 - cd backend npm start
 
+## Creating Users:
+1. Open the application in your browser.
+2. On the main page, click "Register" in the Navbar to open the registration form.
+3. Fill in the required information in the form (username, email address, password, gender).
+4. Click "Submit" to complete the registration.
+5. If the registration is successful, you can log in.
 
-## Kullanıcıları Oluşturm
-1. Tarayıcınızda uygulamayı açın.
-2. Ana sayfada, Navbar "Register" tıklayarak kayıt formunu açın.
-3. Formda gerekli bilgileri doldurun (kullanıcı adı, e-posta adresi, şifre, gender).
-4. "Submit" tıklayarak kaydı tamamlayın.
-5. Kayıt işlemi başarılı olduysa, giriş yapabilirsiniz.
+## Technologies Used:
+- Jwt and cookies were used for user authentication and storing user information.
+- State management was using with the Context API.
+- Tailwind was used for design.
 
-
-## Kullanılan Teknolojiler:
-- Jwt and cookies kullanıcı kimlik doğrulaması ve kullanıcı bilgilerini depolamak için kullanıldı.
-- State management, Context api kullanıldı.
-- Tailwind ile dizayn yapıldı.
-
-
-## Resimler
+## Pictures
 <img width="1440" alt="Ekran Resmi 2024-05-26 14 41 17" src="https://github.com/oktay379/Playable-Factory-TodoApp/assets/124916788/09177608-0b34-4219-a1a1-b4aebb0b2c06">
 <img width="1440" alt="Ekran Resmi 2024-05-26 14 40 44" src="https://github.com/oktay379/Playable-Factory-TodoApp/assets/124916788/d405b20c-2ee3-4bf9-9712-495738c312cc">
 <img width="1440" alt="Ekran Resmi 2024-05-26 14 39 58" src="https://github.com/oktay379/Playable-Factory-TodoApp/assets/124916788/6429f55d-4926-44aa-8c64-619f430d2733">
